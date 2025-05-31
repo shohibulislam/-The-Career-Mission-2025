@@ -1,0 +1,40 @@
+#banner-container {
+    display: flex;
+    text-align: center;
+}
+
+#banner-content {
+    margin: 100px auto 100px auto;
+    /* max-width: 87.5%; */
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    padding: 40px 60px;
+    width: 87.5%;
+}
+
+.banner-image img {
+    width: 200px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.banner-text h1 {
+    margin-bottom: 24px;
+    font-weight: 1000;
+    color: #0D1321;
+    font-size: 48px;
+    text-align: center;
+}
+
+.banner-text p {
+    margin-bottom: 32px;
+    font-weight: regular;
+    color: #0D1321;
+    font-size: 16px;
+    text-align: center;
+}
+.banner-button-div {
+    text-align: center;
+}
+
+

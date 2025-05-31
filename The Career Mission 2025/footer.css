@@ -1,0 +1,17 @@
+#footer-container{
+    background-color: #FFFFFF60;
+    padding: 32px 150px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content h4{
+    color: #0D1321;
+    letter-spacing: 3px;
+}
+.footer-icons{
+    display: flex;
+    gap: 30px;
+}

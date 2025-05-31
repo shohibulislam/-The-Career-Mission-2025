@@ -1,0 +1,300 @@
+/* laptop */
+@media screen and (max-width: 1200px) {
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+    }
+
+    .banner-button {
+        font-size: 15px;
+        padding: 15px 22px;
+    }
+
+    .header-button {
+        font-size: 15px;
+        padding: 15px 22px;
+    }
+
+    /* blog */
+    .blog-title h2 {
+        font-size: 27px;
+    }
+
+    .blog-title p {
+        font-size: 14px;
+    }
+
+    .blog-text p {
+        font-size: 15px;
+    }
+
+    .blog-button {
+        font-size: 15px;
+        padding: 15px 22px;
+    }
+
+    /* inspiraton */
+    .inspiration-title h2 {
+        font-size: 27px;
+    }
+
+    .inspiration-title p {
+        font-size: 14px;
+    }
+
+    .inspiration-video {
+        width: 900px;
+    }
+
+    iframe {
+        max-width: 100%;
+        height: 450px;
+    }
+
+    /* target */
+    .target-title h2 {
+        font-size: 27px;
+    }
+
+    .target-title p {
+        font-size: 14px;
+    }
+
+    .target-one {
+        min-width: 250px;
+        flex-direction: column;
+    }
+
+    /* footer */
+    #footer-container {
+        background-color: #FFFFFF60;
+        padding: 17px 80px;
+    }
+
+
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    .header-icon {
+        font-size: 20px;
+    }
+
+    .header-button {
+        font-size: 12px;
+        padding: 12px 19px;
+    }
+
+    .banner-image img {
+        width: 150px;
+    }
+
+    .banner-text h1 {
+        font-size: 20px;
+    }
+
+    .banner-text p {
+        font-size: 10px;
+    }
+
+    .banner-button {
+        font-size: 12px;
+        padding: 12px 19px;
+    }
+
+    /* blog */
+    .blog-text h3 {
+        font-size: 16px;
+    }
+
+    .blog-title h2 {
+        font-size: 17px;
+    }
+
+    .blog-title p {
+        font-size: 9px;
+    }
+
+    .blog-text p {
+        font-size: 10px;
+    }
+
+    .blog-button {
+        font-size: 12px;
+        padding: 12px 19px;
+    }
+
+    img {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    /* inspiration */
+    .inspiration-title h2 {
+        font-size: 17px;
+    }
+
+    .inspiration-title p {
+        font-size: 9px;
+    }
+
+    .inspiration-video {
+        width: 600px;
+        border-radius: 9px;
+    }
+
+    iframe {
+        max-width: 100%;
+        border-radius: 9px;
+        height: 300px;
+    }
+
+    /* target */
+    .target-title h2 {
+        font-size: 17px;
+    }
+
+    .target-title p {
+        font-size: 9px;
+    }
+
+    .target-one {
+        text-align: center;
+        min-width: 400px;
+        flex-direction: column;
+    }
+
+    .target-one img {
+        margin-right: 50px;
+        width: 40px;
+    }
+
+    .target-one h3,
+    a {
+        font-size: 15px;
+    }
+
+    /* footer */
+    #footer-container {
+        background-color: #FFFFFF60;
+        padding: 17px 50px;
+    }
+
+    .footer-content h4 {
+        letter-spacing: 1px;
+    }
+
+    .footer-icons {
+        gap: 0px;
+    }
+
+    .footer-icons img {
+        width: 20px;
+    }
+
+    .footer-content {
+        font-size: 15px;
+    }
+
+
+}
+
+/* mobile */
+@media screen and (max-width: 640px) {
+
+    /* banner */
+    .banner-image img {
+        width: 130px;
+        padding-right: 50px;
+    }
+
+    .banner-button {
+        font-size: 9px;
+        padding: 10px 17px;
+    }
+
+    .header-button {
+        font-size: 9px;
+        padding: 10px 17px;
+    }
+
+    .header-icon {
+        font-size: 17px;
+    }
+
+    /* blog */
+    .blog-section {
+        flex-direction: column-reverse;
+    }
+
+    .blog-image {
+        width: 100%;
+    }
+
+    .blog-text {
+        width: 100%;
+    }
+
+    .blog-button-div {
+        text-align: center;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    /* inspiration */
+    .inspiration-video {
+        width: 600px;
+        border-radius: 9px;
+    }
+
+    iframe {
+        max-width: 100%;
+        border-radius: 9px;
+        height: 300px;
+    }
+
+    /* inspiration */
+    .target-one {
+        text-align: center;
+        min-width: 200px;
+        flex-direction: column;
+    }
+
+    .target-one img {
+        margin-right: 50px;
+        width: 40px;
+    }
+
+    .target-one h3,
+    a {
+        font-size: 10px;
+    }
+
+    /* footer */
+    #footer-container {
+        background-color: #FFFFFF60;
+        padding: 17px 50px;
+    }
+
+    .footer-content h4 {
+        letter-spacing: 1px;
+    }
+
+    .footer-icons {
+        margin-right: 45px;
+        margin-bottom: 10px;
+    }
+
+    .footer-content {
+        text-align: center;
+        flex-direction: column-reverse;
+        font-size: 10px;
+    }
+
+
+}

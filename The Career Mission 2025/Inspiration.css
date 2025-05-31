@@ -1,0 +1,31 @@
+#inspiration-content {
+    margin: 0px auto 100px auto;
+}
+
+.inspiration-title h2 {
+    font-weight: 1000;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.inspiration-title p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center;
+    opacity: 70%;
+}
+
+.inspiration-video {
+    text-align: center;
+    border-radius: 16px;
+    margin: 48px auto 0px auto;
+    padding: 32px;
+    border: 1px solid #0D132120;
+    max-width: fit-content;
+}
+iframe{
+    border-radius: 16px;
+}
