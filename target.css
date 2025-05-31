@@ -1,0 +1,42 @@
+#targt-content {
+    margin: 0px auto 140px auto;
+    text-align: center;
+}
+
+.target-title h2 {
+    font-weight: 1000;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.target-title p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center;
+    opacity: 70%;
+    margin-bottom: 48px;
+}
+.target-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.target-one{
+    min-width: 400px;
+    padding: 40px;
+    background-image: linear-gradient(180deg, #E6EDF9, #9DE5FF);
+    text-align: left;
+    border-radius: 16px;
+    align-items: start;
+    box-shadow: 0px 4px 40px #00000025;
+}
+.target-one img{
+    width: 70px;
+}
+.target-one img , h3 {
+    margin-bottom: 24px;
+}
